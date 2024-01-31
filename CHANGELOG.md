@@ -1,3 +1,7 @@
+## 1.1.0
+* update dependencies 
+* update example
+
 ## 1.0.0
 * Initial release.
 * DateInputFormField is a Flutter widget that wraps a FormField 

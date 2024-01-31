@@ -20,7 +20,7 @@ To use this plugin, add `date_input_form_field` as a [dependency in your pubspec
 
 ```yaml
 dependencies:
-  date_input_form_field: ^1.0.0
+  date_input_form_field: ^1.1.0
 ```
 
 ## Example

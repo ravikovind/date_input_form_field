@@ -1,6 +1,9 @@
 name: date_input_form_field
 description: "DateInputFormField is a Flutter widget that wraps a FormField and allows the user to enter a date in a simple, intuitive way."
-version: 0.0.1
+version: 1.0.0
+homepage: https://github.com/ravikovind/date_input_form_field
+repository: https://github.com/ravikovind/date_input_form_field
+issue_tracker: https://github.com/ravikovind/date_input_form_field/issues
 
 environment:
   sdk: ">=3.1.0 <4.0.0"
@@ -9,7 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: any
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
@@ -19,8 +22,8 @@ dev_dependencies:
 flutter:
 
 topics:
-  - date input form field
-  - date input text field
-  - date picker
-  - form field
-  - text field
+  - date-input
+  - date-form-field
+  - date-picker
+  - date-text-field
+  - form-field

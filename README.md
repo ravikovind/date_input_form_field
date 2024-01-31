@@ -12,6 +12,8 @@
 
 <img src="https://raw.githubusercontent.com/ravikovind/date_input_form_field/main/screenshots/date_input_form_field.gif" height="600" />
 
+It is a simple widget that wraps a `FormField` and provides a (`String`,`DateTime`) object as a result. It supports various date formats and can be easily customized. It can be used with any `Form`. 
+
 ## Usage
 
 To use this plugin, add `date_input_form_field` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
@@ -33,16 +35,15 @@ Use the Icon
 
 ```dart
 DateInputFormField(
-                  autovalidateMode: AutovalidateMode.onUserInteraction,
-                  format: 'dd/MM/yyyy',
-                  controller: controller,
-                  decoration: const InputDecoration(
-                    labelText: 'Date of Birth',
-                    border: OutlineInputBorder(),
-            ),
-    ),
-
-
+autovalidateMode: AutovalidateMode.onUserInteraction,
+format: 'dd/MM/yyyy',
+controller: controller,
+decoration: const InputDecoration(
+labelText: 'Date of Birth',
+border: OutlineInputBorder(),
+  ),
+),
+                
 ```
 
 ## Issues & Feedback

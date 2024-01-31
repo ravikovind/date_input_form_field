@@ -11,6 +11,7 @@
 `date_input_form_field` is a widget for easy date input within a Form, supporting various formats. It is similar to the `TextFormField` widget.
 
 <!-- video screenshots/date_input_form_field.mp4 -->
+<img src="https://raw.githubusercontent.com/ravikovind/date_input_form_field/main/screenshots/date_input_form_field.gif"  height="600" />
 
 ## Usage
 
